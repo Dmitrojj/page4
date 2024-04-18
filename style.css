@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    background-image: radial-gradient(red, blue);
+}
+header img {
+    width: 37px;
+    height: 37px;
+    float: left;
+    z-index: 1;
+    opacity: 1;
+    border: none;
+}
+.saladchick {
+    display: block;
+    margin: auto;
+}
+header h1{
+    background-image: linear-gradient(to left, #D33715, #167B9C);
+    padding: 25px;
+}
+.saladchick {
+    border-radius: 14px;
+    margin-top: 20px;
+    border: 6px solid rgb(0, 128, 64);
+    transition: 0.5s ease-out;
+    width: 400px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+.resept{
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, rgb(0, 128, 64), #D33715);
+    border-image-slice: 1;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+p {
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+header p {
+    position: relative;
+}
+.first {
+    float: left;
+    background-color: #6C30B9;
+    border-radius: 10px;
+}
+.second {
+    position: relative;
+    left: 170px;
+    background-color: #6C30B9;
+    border-radius: 10px;
+}
+.other {
+    float: right;
+    bottom: 65px;
+    background-color: #6C30B9;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: royalblue;
+    transition: 3s linear;
+}
+main img {
+    display: block;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+}
+.data {
+    text-align: left;
+    color: burlywood;
+    font-size: small;
+}
+footer {
+    background-image: linear-gradient(to left, #3243D8, #BE1CE7, #E5B713);
+}
+footer p {
+    text-align: left;
+    font-size: 16;
+    color: white;
+}
+.social {
+    float: left;
+}
+footer img:hover {
+    width: 50px;
+    height: 50px;
+    transition: 0.5s ease-out;
+}
+nav a{
+    display: inline-flex;
+    text-decoration: none;
+    border: 2px solid #6C30B9;
+    border-radius: 10px;
+    padding: 3px;
+    justify-content: space-around;
+    margin-left: 250px;
+    color: white;
+    background-color: #6C30B9;
+    box-shadow: 2px 3px 5px 0.5px black;
+}
+.cheese {
+    text-align: left;
+}
+footer p {
+    text-align: left;
+    font-size: 16;
+    color: white;
+    margin-left: 20px;
+}
+.social {
+    float: left;
+}
+footer img {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+footer img:hover {
+    width: 50px;
+    height: 50px;
+    transition: 0.5s ease-out;
+}
